@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Fruit Freshness Detection Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the frontend implementation for the Fruit Freshness Detection system, which allows users to upload images of fruits and receive assessments of their freshness.
+
+## Features
+
+- **User-Friendly Interface**: Provides an intuitive interface for users to upload fruit images.
+- **Real-Time Feedback**: Displays the freshness assessment promptly after image submission.
+- **Responsive Design**: Ensures compatibility across various devices and screen sizes.
+
+## Getting Started
+
+To set up and run the frontend locally:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/Kshitiz-002/Fruit-Freshness-Frontend.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd Fruit-Freshness-Frontend
+   ```
+
+3. **Install Dependencies**:
+
+   Ensure that you have [Node.js](https://nodejs.org/) installed. Then, install the necessary packages:
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the Application**:
+
+   Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   The application will open in your default browser at [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+- `public/`: Contains static assets and the HTML template.
+- `src/`: Contains the React components and main application logic.
+- `.gitignore`: Specifies files and directories to be ignored by Git.
+- `package.json`: Lists the project dependencies and scripts.
+- `tailwind.config.js`: Configuration file for Tailwind CSS.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner in interactive watch mode.
+- `npm run build`: Builds the app for production.
+- `npm run eject`: Ejects the app, revealing the underlying configuration.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To deploy the application:
 
-### `npm test`
+1. **Build the Application**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npm run build
+   ```
 
-### `npm run build`
+   This will create a `build` folder with the production-ready files.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Deploy the Contents of the `build` Folder**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Upload the contents of the `build` folder to your preferred hosting service.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! To contribute:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
